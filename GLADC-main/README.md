@@ -2,8 +2,6 @@
 This is a modified version of the code from the paper "Deep Graph Level Anomaly Detection with Contrastive Learning".
 # Data Preparation
 JOURNAL is the dataset used in the report.
-# Experiment Environment 
-The required packages are shown in the requirements_2.txt.
 # Train 
      !python3 main_1.py --datadir "./dataset/" --DS "JOURNAL" --hidden-dim 256 --output-dim 128 --num-gc-layers 2 --num_epochs 100 --batch-size 300 --lr 0.0001
 #### Credits go to the original authors for the starting code.
